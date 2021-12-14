@@ -8,22 +8,21 @@ import javafx.fxml.FXMLLoader;
 
 
 public class Main extends Application {
-	//se sobreescribe el método Start de la clase Application
 	@Override
 	public void start(Stage primaryStage) {
 		try {
 			BorderPane root = (BorderPane)FXMLLoader.load(getClass().getResource("Sample.fxml"));
-			Scene scene = new Scene(root,1050,800);
+			Scene scene = new Scene(root,954,639);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("SuMaT");
 			primaryStage.setScene(scene);
 			primaryStage.show();
+			primaryStage.setResizable(false);
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-	//método main
 	public static void main(String[] args) {
 		launch(args);
 	}

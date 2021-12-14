@@ -1,128 +1,435 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Region?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane style="-fx-background-color: #bdd9f0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
    <center>
-      <HBox BorderPane.alignment="CENTER">
-         <children>
-            <VBox>
+      <SplitPane prefHeight="566.0" prefWidth="683.0" BorderPane.alignment="CENTER">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="568.0" prefWidth="688.0" style="-fx-background-color: rgb(255,255,204)rgb(255,255,204);">
                <children>
-                  <Button fx:id="inicio" mnemonicParsing="false" onAction="#startButtonClicked">
-                     <VBox.margin>
-                        <Insets />
-                     </VBox.margin>
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fx:id="panalInicio" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/panalInicio.jpg" />
-                           </image>
-                        </ImageView>
-                     </graphic></Button>
+                  <ImageView fx:id="panal1" fitHeight="57.0" fitWidth="66.0" layoutX="27.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panelInicio.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal2" fitHeight="57.0" fitWidth="66.0" layoutX="72.0" layoutY="231.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal3" fitHeight="57.0" fitWidth="66.0" layoutX="72.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal4" fitHeight="57.0" fitWidth="66.0" layoutX="119.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal5" fitHeight="57.0" fitWidth="66.0" layoutX="119.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal6" fitHeight="57.0" fitWidth="66.0" layoutX="119.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal7" fitHeight="57.0" fitWidth="66.0" layoutX="165.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal8" fitHeight="57.0" fitWidth="66.0" layoutX="165.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal9" fitHeight="57.0" fitWidth="66.0" layoutX="165.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal10" fitHeight="57.0" fitWidth="66.0" layoutX="165.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal11" fitHeight="57.0" fitWidth="66.0" layoutX="212.0" layoutY="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal12" fitHeight="57.0" fitWidth="66.0" layoutX="212.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal13" fitHeight="57.0" fitWidth="66.0" layoutX="212.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal14" fitHeight="57.0" fitWidth="66.0" layoutX="212.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal15" fitHeight="57.0" fitWidth="66.0" layoutX="212.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal16" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal17" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal18" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal19" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal20" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal21" fitHeight="57.0" fitWidth="66.0" layoutX="259.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal22" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal23" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal24" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="203.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal25" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal26" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="310.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal27" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal28" fitHeight="57.0" fitWidth="66.0" layoutX="308.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal29" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal30" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal31" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal32" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal33" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="335.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal34" fitHeight="57.0" fitWidth="66.0" layoutX="355.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal35" fitHeight="57.0" fitWidth="66.0" layoutX="403.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal36" fitHeight="57.0" fitWidth="66.0" layoutX="403.0" layoutY="201.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal37" fitHeight="57.0" fitWidth="66.0" layoutX="403.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal38" fitHeight="57.0" fitWidth="66.0" layoutX="403.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal39" fitHeight="57.0" fitWidth="66.0" layoutX="403.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal43" fitHeight="57.0" fitWidth="66.0" layoutX="452.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel6.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal42" fitHeight="57.0" fitWidth="66.0" layoutX="452.0" layoutY="281.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel5.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal41" fitHeight="57.0" fitWidth="66.0" layoutX="452.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal40" fitHeight="57.0" fitWidth="66.0" layoutX="452.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel4.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal44" fitHeight="57.0" fitWidth="66.0" layoutX="500.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal45" fitHeight="57.0" fitWidth="66.0" layoutX="500.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel1.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal46" fitHeight="57.0" fitWidth="66.0" layoutX="500.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel10.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal48" fitHeight="57.0" fitWidth="66.0" layoutX="548.0" layoutY="279.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel9.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal47" fitHeight="57.0" fitWidth="66.0" layoutX="548.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel7.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="panal49" fitHeight="57.0" fitWidth="66.0" layoutX="595.0" layoutY="252.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/panel8.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="boton1" layoutX="42.0" layoutY="265.0" mnemonicParsing="false" onAction="#Boton1" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton2" layoutX="87.0" layoutY="239.0" mnemonicParsing="false" onAction="#Boton2" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton3" layoutX="87.0" layoutY="291.0" mnemonicParsing="false" onAction="#Boton3" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton4" layoutX="134.0" layoutY="212.0" mnemonicParsing="false" onAction="#Boton4" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton5" layoutX="134.0" layoutY="265.0" mnemonicParsing="false" onAction="#Boton5" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton6" layoutX="134.0" layoutY="318.0" mnemonicParsing="false" onAction="#Boton6" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton7" layoutX="180.0" layoutY="185.0" mnemonicParsing="false" onAction="#Boton7" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton8" layoutX="180.0" layoutY="239.0" mnemonicParsing="false" onAction="#Boton8" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton9" layoutX="180.0" layoutY="292.0" mnemonicParsing="false" onAction="#Boton9" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton10" layoutX="180.0" layoutY="344.0" mnemonicParsing="false" onAction="#Boton10" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton11" layoutX="227.0" layoutY="158.0" mnemonicParsing="false" onAction="#Boton11" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton12" layoutX="227.0" layoutY="212.0" mnemonicParsing="false" onAction="#Boton12" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton13" layoutX="227.0" layoutY="265.0" mnemonicParsing="false" onAction="#Boton13" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton14" layoutX="227.0" layoutY="318.0" mnemonicParsing="false" onAction="#Boton14" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton15" layoutX="227.0" layoutY="370.0" mnemonicParsing="false" onAction="#Boton15" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton16" layoutX="274.0" layoutY="131.0" mnemonicParsing="false" onAction="#Boton16" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton17" layoutX="274.0" layoutY="185.0" mnemonicParsing="false" onAction="#Boton17" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton18" layoutX="274.0" layoutY="239.0" mnemonicParsing="false" onAction="#Boton18" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton19" layoutX="274.0" layoutY="291.0" mnemonicParsing="false" onAction="#Boton19" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton20" layoutX="274.0" layoutY="344.0" mnemonicParsing="false" onAction="#Boton20" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton21" layoutX="274.0" layoutY="395.0" mnemonicParsing="false" onAction="#Boton21" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton22" layoutX="323.0" layoutY="104.0" mnemonicParsing="false" onAction="#Boton22" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton23" layoutX="323.0" layoutY="158.0" mnemonicParsing="false" onAction="#Boton23" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton24" layoutX="323.0" layoutY="211.0" mnemonicParsing="false" onAction="#Boton24" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton25" layoutX="323.0" layoutY="265.0" mnemonicParsing="false" onAction="#Boton25" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton26" layoutX="307.0" layoutY="315.0" mnemonicParsing="false" onAction="#Boton26" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton27" layoutX="325.0" layoutY="370.0" mnemonicParsing="false" onAction="#Boton27" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton28" layoutX="323.0" layoutY="422.0" mnemonicParsing="false" onAction="#Boton28" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton29" layoutX="370.0" layoutY="131.0" mnemonicParsing="false" onAction="#Boton29" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton30" layoutX="370.0" layoutY="183.0" mnemonicParsing="false" onAction="#Boton30" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton31" layoutX="370.0" layoutY="238.0" mnemonicParsing="false" onAction="#Boton31" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton32" layoutX="370.0" layoutY="291.0" mnemonicParsing="false" onAction="#Boton32" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton33" layoutX="370.0" layoutY="343.0" mnemonicParsing="false" onAction="#Boton33" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton34" layoutX="370.0" layoutY="395.0" mnemonicParsing="false" onAction="#Boton34" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton35" layoutX="418.0" layoutY="156.0" mnemonicParsing="false" onAction="#Boton35" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton36" layoutX="418.0" layoutY="209.0" mnemonicParsing="false" onAction="#Boton36" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton37" layoutX="418.0" layoutY="259.0" mnemonicParsing="false" onAction="#Boton37" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton38" layoutX="418.0" layoutY="316.0" mnemonicParsing="false" onAction="#Boton38" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton39" layoutX="418.0" layoutY="367.0" mnemonicParsing="false" onAction="#Boton39" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton40" layoutX="467.0" layoutY="183.0" mnemonicParsing="false" onAction="#Boton40" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton41" layoutX="469.0" layoutY="235.0" mnemonicParsing="false" onAction="#Boton41" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton42" layoutX="467.0" layoutY="289.0" mnemonicParsing="false" onAction="#Boton42" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton43" layoutX="467.0" layoutY="344.0" mnemonicParsing="false" onAction="#Boton43" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton44" layoutX="515.0" layoutY="207.0" mnemonicParsing="false" onAction="#Boton44" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton45" layoutX="515.0" layoutY="260.0" mnemonicParsing="false" onAction="#Boton45" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton46" layoutX="515.0" layoutY="315.0" mnemonicParsing="false" onAction="#Boton46" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton47" layoutX="563.0" layoutY="235.0" mnemonicParsing="false" onAction="#Boton47" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton48" layoutX="563.0" layoutY="287.0" mnemonicParsing="false" onAction="#Boton48" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <Button fx:id="boton49" layoutX="610.0" layoutY="260.0" mnemonicParsing="false" onAction="#Boton49" opacity="0.0" prefHeight="39.0" prefWidth="36.0" />
+                  <ImageView fx:id="abeja1" fitHeight="109.0" fitWidth="124.0" layoutX="537.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Izq.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja10" fitHeight="125.0" fitWidth="137.0" layoutX="523.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true" rotate="-4.8">
+                     <image>
+                        <Image url="@../resources/Der.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja3" fitHeight="126.0" fitWidth="132.0" layoutX="6.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true" rotate="18.4">
+                     <image>
+                        <Image url="@../resources/Der.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja2" fitHeight="122.0" fitWidth="142.0" layoutX="17.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" rotate="-5.7">
+                     <image>
+                        <Image url="@../resources/Der.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja8" fitHeight="118.0" fitWidth="168.0" layoutX="399.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Izq.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja9" fitHeight="118.0" fitWidth="130.0" layoutX="534.0" layoutY="333.0" pickOnBounds="true" preserveRatio="true" rotate="-3.4">
+                     <image>
+                        <Image url="@../resources/Der.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja6" fitHeight="115.0" fitWidth="133.0" layoutX="165.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true" rotate="-4.8">
+                     <image>
+                        <Image url="@../resources/Der.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja4" fitHeight="122.0" fitWidth="120.0" layoutX="17.0" layoutY="441.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Izq.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja7" fitHeight="117.0" fitWidth="155.0" layoutX="385.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true" rotate="6.7">
+                     <image>
+                        <Image url="@../resources/Izq.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="abeja5" fitHeight="120.0" fitWidth="212.0" layoutX="147.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/Izq.png" />
+                     </image>
+                  </ImageView>
                </children>
-               <padding>
-                  <Insets bottom="100.0" left="50.0" right="50.0" top="230.0" />
-               </padding>
-            </VBox>
-            <VBox>
-               <children>
-                  <Button fx:id="boton10" mnemonicParsing="false" onAction="#button10Clicked">
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/panal10.jpg" />
-                           </image></ImageView>
-                     </graphic></Button>
-                  <Button fx:id="boton05" mnemonicParsing="false" onAction="#button05Clicked">
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/panal5.jpg" />
-                           </image></ImageView>
-                     </graphic></Button>
-                  <Button fx:id="boton01" mnemonicParsing="false" onAction="#button01Clicked">
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/panal1.jpg" />
-                           </image></ImageView>
-                     </graphic></Button>
-               </children>
-               <padding>
-                  <Insets bottom="70.0" left="50.0" right="50.0" top="70.0" />
-               </padding></VBox>
-            <VBox>
-               <children>
-                  <Button fx:id="fin" mnemonicParsing="false" onAction="#finalButtonClicked">
-                     <font>
-                        <Font size="13.0" />
-                     </font>
-                     <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/panal8.jpg" />
-                           </image></ImageView>
-                     </graphic></Button>
-               </children>
-               <padding>
-                  <Insets bottom="100.0" left="50.0" right="50.0" top="230.0" />
-               </padding></VBox>
-         </children>
-      </HBox>
+            </AnchorPane>
+        </items>
+      </SplitPane>
    </center>
-   <top>
-      <HBox prefHeight="118.0" prefWidth="876.0" BorderPane.alignment="CENTER">
+   <bottom>
+      <Pane prefHeight="51.0" prefWidth="683.0" style="-fx-background-color: rgb(255,255,204)rgb(255,255,204);" BorderPane.alignment="CENTER">
          <children>
-            <Text fx:id="abejas" disable="true" strokeType="OUTSIDE" strokeWidth="0.0" text="*">
+            <Text fx:id="texto1" layoutX="377.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="503.3359375">
                <font>
-                  <Font name="Arial Black" size="72.0" />
+                  <Font name="Berlin Sans FB" size="26.0" />
                </font>
             </Text>
-            <Region prefHeight="150.0" prefWidth="462.0" />
-            <Text fx:id="abejas1" disable="true" layoutX="10.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cuenta los*">
-               <font>
-                  <Font name="Arial Black" size="57.0" />
-               </font>
-            </Text>
-            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+         </children>
+      </Pane>
+   </bottom>
+   <left>
+      <AnchorPane prefHeight="560.0" prefWidth="266.0" style="-fx-background-color: rgb(255,255,204)rgb(255,255,204);" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="14.0" layoutY="418.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../resources/original%20bee.png" />
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
                </image>
             </ImageView>
-         </children></HBox>
-   </top>
-   <bottom>
-      <Text fx:id="avisos" strokeType="OUTSIDE" strokeWidth="0.0" text="Pulsa inicio para comenzar" BorderPane.alignment="CENTER">
-         <font>
-            <Font size="21.0" />
-         </font>
-         <BorderPane.margin>
-            <Insets bottom="10.0" />
-         </BorderPane.margin>
-      </Text>
-   </bottom>
-   <opaqueInsets>
-      <Insets />
-   </opaqueInsets>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="58.0" layoutY="348.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="58.0" layoutY="252.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="105.0" layoutY="182.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="105.0" layoutY="80.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="141.0" fitWidth="151.0" layoutX="20.0" layoutY="130.0" opacity="0.38" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/pngkit_beehive-pattern-png_4187345.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="20.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cuenta las               selecciona la celda con el número correcto de abejas hasta llegar a la última celda." textAlignment="JUSTIFY" wrappingWidth="210.3359375">
+               <font>
+                  <Font name="Berlin Sans FB" size="26.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="abeja101" fitHeight="91.0" fitWidth="173.0" layoutX="140.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Der.png" />
+               </image>
+            </ImageView>
+            <Text layoutX="16.0" layoutY="357.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pulsa la celda de inicio para comezar! y diviértete jugando y aprendiendo." wrappingWidth="233.3359375">
+               <font>
+                  <Font name="Berlin Sans FB" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="#fce11a" layoutX="25.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SuMaT">
+               <font>
+                  <Font name="Berlin Sans FB" size="75.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </left>
 </BorderPane>
